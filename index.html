@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/addToCart.css">
+    <!-- normalize file -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="product-page">
+            <nav>
+                <div class="container flex-center">
+                    <h1>Explore Our Meals</h1>
+                    <div class="cart">
+                        <img src="./images/shopping-cart.png" alt="">
+                        <div class="notify flex-center">0</div>
+                    </div>
+                </div>
+            </nav>
+            <section class="meals">
+                <div class="container">
+                    <div class="card flex-center">
+                        <div class="photo">
+                            <img class="w-100 h-100" src="./images/1.png" alt="">
+                        </div>
+                        <h5 class="name">product 1</h5>
+                        <div class="price-box">
+                            <span class="flex-center">$<h5 class="price">49.99</h5></span>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card flex-center">
+                        <div class="photo">
+                            <img class="w-100 h-100" src="./images/2.png" alt="">
+                        </div>
+                        <h5 class="name">product 2</h5>
+                        <div class="price-box">
+                            <span class="flex-center">$<h5 class="price">24.99</h5></span>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card flex-center">
+                        <div class="photo">
+                            <img class="w-100 h-100" src="./images/3.png" alt="">
+                        </div>
+                        <h5 class="name">product 3</h5>
+                        <div class="price-box">
+                            <span class="flex-center">$<h5 class="price">29.99</h5></span>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card flex-center">
+                        <div class="photo">
+                            <img class="w-100 h-100" src="./images/4.png" alt="">
+                        </div>
+                        <h5 class="name">product 4</h5>
+                        <div class="price-box">
+                            <span class="flex-center">$<h5 class="price">9.99</h5></span>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card flex-center">
+                        <div class="photo">
+                            <img class="w-100 h-100" src="./images/5.png" alt="">
+                        </div>
+                        <h5 class="name">product 5</h5>
+                        <div class="price-box">
+                            <span class="flex-center">$<h5 class="price">14.99</h5></span>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card flex-center">
+                        <div class="photo">
+                            <img class="w-100 h-100" src="./images/6.png" alt="">
+                        </div>
+                        <h5 class="name">product 6</h5>
+                        <div class="price-box">
+                            <span class="flex-center">$<h5 class="price">27.49</h5></span>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="cart-screen">
+            <div class="main-box closed">
+                <h2>Cart</h2>
+                <div class="card-in-cart">
+                    <div class="controller flex-center">
+                        <span class="flex-center" id="total">0,00</span>
+                        <span class="flex-center" id="close">close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/addToCart.js">
+    </script>
+</body>
+
+</html>
